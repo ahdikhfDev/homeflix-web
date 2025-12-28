@@ -59,7 +59,8 @@
                         <div class="h-[45%] bg-gradient-to-b from-gray-900 to-black relative group">
                             <img src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=2070&auto=format&fit=crop" 
                                  alt="Movie" 
-                                 class="w-full h-full object-cover opacity-60">
+                                 class="w-full h-full object-cover opacity-60"
+                                 width="300" height="600" loading="eager">
                             
                             <div class="absolute inset-0 flex items-center justify-center">
                                 <div class="w-16 h-16 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center pl-1 cursor-pointer hover:scale-110 transition-transform">
@@ -103,7 +104,7 @@
                             <!-- Input Field -->
                             <div class="mt-4 pt-3 border-t border-white/10 flex gap-2">
                                 <input type="text" placeholder="Ketik pesan..." class="bg-cardDark text-xs w-full rounded-full px-4 py-2 focus:outline-none border border-white/5 focus:border-primary text-white" />
-                                <button class="bg-primary p-2 rounded-full text-white">
+                                <button class="bg-primary p-2 rounded-full text-white" aria-label="Send Message">
                                     <i data-lucide="send" class="w-3.5 h-3.5"></i>
                                 </button>
                             </div>

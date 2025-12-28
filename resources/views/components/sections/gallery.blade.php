@@ -13,10 +13,10 @@
             
             @foreach(\App\Models\Gallery::where('is_active', true)->orderBy('sort_order')->get() as $item)
             <div class="snap-center shrink-0">
-                <div class="relative w-[280px] h-[580px] bg-[#121212] rounded-[3rem] border-[8px] border-[#2a2a2a] shadow-2xl overflow-hidden flex flex-col group transition-transform duration-300 hover:-translate-y-4">
+                <div class="relative w-[220px] h-[450px] md:w-[280px] md:h-[580px] bg-[#121212] rounded-[2.5rem] md:rounded-[3rem] border-[6px] md:border-[8px] border-[#2a2a2a] shadow-2xl overflow-hidden flex flex-col group transition-transform duration-300 hover:-translate-y-4">
                     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-6 bg-[#2a2a2a] rounded-b-xl z-20"></div>
                     <div class="w-full h-full relative">
-                        <img src="{{ Str::startsWith($item->image_path, ['http://', 'https://']) ? $item->image_path : \Illuminate\Support\Facades\Storage::url($item->image_path) }}" alt="{{ $item->title }}" class="w-full h-full object-cover">
+                        <img src="{{ Str::startsWith($item->image_path, ['http://', 'https://']) ? $item->image_path : \Illuminate\Support\Facades\Storage::url($item->image_path) }}" alt="{{ $item->title }}" class="w-full h-full object-cover" width="280" height="580" loading="lazy">
                         <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center p-4 text-center">
                             <div>
                                 <h4 class="font-bold text-lg mb-1">{{ $item->title }}</h4>
