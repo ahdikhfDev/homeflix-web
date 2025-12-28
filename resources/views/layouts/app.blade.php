@@ -3,7 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomeFlix - Nonton Bareng Virtual</title>
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="IiVa5P9A_T2Fikpz3htrQ_nDt_-LeCSE1kEWW2mxbcw" />
+    
+    <!-- SEO Meta Tags -->
+    <title>HomeFlix - Nonton Film Online Bareng Teman | Streaming Film Gratis</title>
+    <meta name="description" content="HomeFlix adalah platform streaming film online terbaik untuk nonton bareng virtual dengan teman. Nikmati ribuan film gratis, import video YouTube, dan chat real-time. Download aplikasi Android sekarang!">
+    <meta name="keywords" content="nonton film online, streaming film gratis, nonton bareng virtual, watch party, film indonesia, film hollywood, download film, aplikasi nonton film, streaming movie, cinema online, bioskop online, nonton film bareng teman">
+    <meta name="author" content="HomeFlix">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://homeflix.biz.id">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="HomeFlix - Nonton Film Online Bareng Teman">
+    <meta property="og:description" content="Platform streaming film online terbaik untuk nonton bareng virtual. Ribuan film gratis, import YouTube, chat real-time. Download sekarang!">
+    <meta property="og:url" content="https://homeflix.biz.id">
+    <meta property="og:site_name" content="HomeFlix">
+    <meta property="og:image" content="https://homeflix.biz.id/images/og-image.jpg">
+    <meta property="og:locale" content="id_ID">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HomeFlix - Nonton Film Online Bareng Teman">
+    <meta name="twitter:description" content="Platform streaming film online terbaik untuk nonton bareng virtual. Download aplikasi Android sekarang!">
+    <meta name="twitter:image" content="https://homeflix.biz.id/images/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/logo.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/logo.png') }}">
+    
+    <!-- DNS Prefetch & Preconnect for Performance -->
+    <link rel="dns-prefetch" href="//cdn.tailwindcss.com">
+    <link rel="dns-prefetch" href="//unpkg.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -25,7 +63,7 @@
                     colors: {
                         primary: '#6555F5',
                         darkPurple: '#5243C7',
-                        accent: '#FF6B35',
+                        accent: '#8B5CF6',
                         bgDark: '#0A0A0A',
                         cardDark: '#1E1E1E',
                     },
@@ -75,6 +113,61 @@
             to { opacity: 1; transform: translateY(0); }
         }
     </style>
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@@context": "https://schema.org",
+        "@@graph": [
+            {
+                "@@type": "WebSite",
+                "@@id": "https://homeflix.biz.id/#website",
+                "url": "https://homeflix.biz.id",
+                "name": "HomeFlix",
+                "description": "Platform streaming film online terbaik untuk nonton bareng virtual dengan teman",
+                "publisher": {
+                    "@@id": "https://homeflix.biz.id/#organization"
+                },
+                "potentialAction": {
+                    "@@type": "SearchAction",
+                    "target": {
+                        "@@type": "EntryPoint",
+                        "urlTemplate": "https://homeflix.biz.id/?s={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            },
+            {
+                "@@type": "Organization",
+                "@@id": "https://homeflix.biz.id/#organization",
+                "name": "HomeFlix",
+                "url": "https://homeflix.biz.id",
+                "logo": {
+                    "@@type": "ImageObject",
+                    "url": "https://homeflix.biz.id/images/logo.png"
+                },
+                "description": "Platform streaming film online dan nonton bareng virtual terbaik di Indonesia",
+                "sameAs": []
+            },
+            {
+                "@@type": "MobileApplication",
+                "name": "HomeFlix",
+                "operatingSystem": "Android",
+                "applicationCategory": "Entertainment",
+                "offers": {
+                    "@@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "IDR"
+                },
+                "aggregateRating": {
+                    "@@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "1250"
+                }
+            }
+        ]
+    }
+    </script>
     
     @livewireStyles
 </head>

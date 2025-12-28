@@ -37,7 +37,7 @@
                         </div>
                     @endif
 
-                    <div class="grid grid-cols-2 gap-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div class="space-y-2">
                             <label class="text-xs font-bold text-gray-400 uppercase">Nama</label>
                             <input type="text" name="name" required placeholder="Dilan" class="w-full bg-cardDark border border-white/10 rounded-lg p-3 focus:border-primary outline-none text-sm text-white focus:ring-1 focus:ring-primary transition-all">

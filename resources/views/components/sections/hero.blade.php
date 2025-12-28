@@ -13,9 +13,9 @@
                 </div>
                 
                 <h1 class="text-5xl md:text-7xl font-bold leading-tight">
-                    Bioskop Virtual <br />
+                    Sinema Virtual <br />
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-                        Di Genggaman.
+                        Tanpa Batas Jarak.
                     </span>
                 </h1>
                 
@@ -24,7 +24,7 @@
                 </p>
 
                 <div class="flex flex-col sm:flex-row gap-4 pt-4">
-                    <a href="{{ route('download') }}" class="flex items-center justify-center gap-3 bg-accent hover:bg-[#e55a26] text-white px-8 py-4 rounded-2xl font-bold shadow-lg shadow-accent/25 transition-all transform hover:-translate-y-1">
+                    <a href="{{ route('download') }}" class="flex items-center justify-center gap-3 bg-accent hover:bg-primary text-white px-8 py-4 rounded-2xl font-bold shadow-lg shadow-accent/25 transition-all transform hover:-translate-y-1">
                         <i data-lucide="smartphone" class="w-6 h-6"></i>
                         <div class="text-left">
                             <div class="text-xs opacity-80 font-normal">Download for</div>
