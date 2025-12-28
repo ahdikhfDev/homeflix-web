@@ -47,7 +47,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     
     <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@latest" defer></script>
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -60,10 +60,10 @@
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
                     },
-                    colors: {
-                        primary: '#6555F5',
-                        darkPurple: '#5243C7',
-                        accent: '#8B5CF6',
+                        colors: {
+                        primary: '#4F46E5', // Darker Indigo (Passes AA with white)
+                        darkPurple: '#4338CA',
+                        accent: '#7C3AED', // Darker Violet (Passes AA with white)
                         bgDark: '#0A0A0A',
                         cardDark: '#1E1E1E',
                     },
@@ -179,7 +179,9 @@
         <div class="absolute bottom-[-10%] right-[-10%] w-[600px] h-[600px] bg-darkPurple rounded-full mix-blend-screen filter blur-[120px] opacity-20"></div>
     </div>
 
-    {{ $slot }}
+    <main role="main">
+        {{ $slot }}
+    </main>
 
     @livewireScripts
 

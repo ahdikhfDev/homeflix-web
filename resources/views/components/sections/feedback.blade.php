@@ -44,7 +44,7 @@
                         </div>
                         <div class="space-y-2">
                             <label class="text-xs font-bold text-gray-400 uppercase">Tipe</label>
-                            <select name="type" class="w-full bg-cardDark border border-white/10 rounded-lg p-3 focus:border-primary outline-none text-sm appearance-none text-white focus:ring-1 focus:ring-primary transition-all">
+                            <select name="type" aria-label="Tipe Masukan" class="w-full bg-cardDark border border-white/10 rounded-lg p-3 focus:border-primary outline-none text-sm appearance-none text-white focus:ring-1 focus:ring-primary transition-all">
                                 <option>Saran Fitur</option>
                                 <option>Laporan Bug</option>
                                 <option>Lainnya</option>

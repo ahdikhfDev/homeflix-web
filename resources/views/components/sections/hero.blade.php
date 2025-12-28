@@ -57,7 +57,7 @@
                         
                         <!-- Video Player Area -->
                         <div class="h-[45%] bg-gradient-to-b from-gray-900 to-black relative group">
-                            <img src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=2070&auto=format&fit=crop" 
+                            <img src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=600&auto=format&fit=crop" 
                                  alt="Movie" 
                                  class="w-full h-full object-cover opacity-60"
                                  width="300" height="600" loading="eager">

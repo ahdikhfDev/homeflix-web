@@ -23,21 +23,21 @@
                     <div class="relative grid grid-cols-2 gap-4">
                         <div class="space-y-4 translate-y-8">
                             <div class="bg-cardDark p-6 rounded-2xl border border-white/5">
-                                <h4 class="text-3xl font-bold text-accent">10k+</h4>
+                                <h3 class="text-3xl font-bold text-accent">10k+</h3>
                                 <p class="text-sm text-gray-400">Movies & Series</p>
                             </div>
                             <div class="bg-cardDark p-6 rounded-2xl border border-white/5">
-                                <h4 class="text-3xl font-bold text-primary">0ms</h4>
+                                <h3 class="text-3xl font-bold text-primary">0ms</h3>
                                 <p class="text-sm text-gray-400">Sync Delay</p>
                             </div>
                         </div>
                         <div class="space-y-4">
                             <div class="bg-cardDark p-6 rounded-2xl border border-white/5">
-                                <h4 class="text-3xl font-bold text-white">4K</h4>
+                                <h3 class="text-3xl font-bold text-white">4K</h3>
                                 <p class="text-sm text-gray-400">Quality Support</p>
                             </div>
                             <div class="bg-cardDark p-6 rounded-2xl border border-white/5">
-                                <h4 class="text-3xl font-bold text-accent">24/7</h4>
+                                <h3 class="text-3xl font-bold text-accent">24/7</h3>
                                 <p class="text-sm text-gray-400">Active Servers</p>
                             </div>
                         </div>
